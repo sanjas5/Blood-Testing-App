@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Athiti-Bold.ttf",
+      "sha1": "0ef09be56377c71c37cb60c406e18d9db3716af0"
+    },
+    {
+      "path": "assets/fonts/Athiti-ExtraLight.ttf",
+      "sha1": "8baa64dab2164f3d79a6efa82c36e483944ec96b"
+    },
+    {
+      "path": "assets/fonts/Athiti-Light.ttf",
+      "sha1": "69a4fe68c4908c1375a75f5729a5d222b13b102b"
+    },
+    {
+      "path": "assets/fonts/Athiti-Medium.ttf",
+      "sha1": "66dcebac971d63b785665de4e5cbdd9a9a3d8f82"
+    },
+    {
+      "path": "assets/fonts/Athiti-Regular.ttf",
+      "sha1": "ea04637d5d6e105ad7d11a97e178679aa3e2f0c8"
+    },
+    {
+      "path": "assets/fonts/Athiti-SemiBold.ttf",
+      "sha1": "b54739df90d27fc2efcc8651fef38bcf2c5f255e"
+    }
+  ]
+}

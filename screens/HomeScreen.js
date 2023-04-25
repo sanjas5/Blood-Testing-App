@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     },
     signUpTitle: {
         color: '#3F3D56',
-        fontFamily: 'athiti-SemiBold',
+        fontFamily: 'athiti-semiBold',
         fontWeight: 600,
         textAlign: 'center',
         fontSize: 20,

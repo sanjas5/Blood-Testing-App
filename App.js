@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import { useFonts } from 'expo-font';
+import RegisterScreen from './screens/RegisterScreen';
 
 
 export default function App() {
@@ -20,7 +21,8 @@ export default function App() {
   else
     return (
       <View style={styles.container}>
-        <HomeScreen/>
+        {/* <HomeScreen/> */}
+        <RegisterScreen/>
         </View>
       );
 }

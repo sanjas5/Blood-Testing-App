@@ -3,6 +3,10 @@ import { StyleSheet, View } from 'react-native';
 import HomeScreen from './screens/HomeScreen';
 import { useFonts } from 'expo-font';
 import RegisterScreen from './screens/RegisterScreen';
+import RegisterViaEmailScreen from './screens/RegisterViaEmailScreen';
+import DetailsScreen from './screens/DetailsScreen';
+import SignInScreen from './screens/SignInScreen';
+import ScanningScreen from './screens/ScanningScreen';
 
 
 export default function App() {
@@ -22,7 +26,10 @@ export default function App() {
     return (
       <View style={styles.container}>
         {/* <HomeScreen/> */}
-        <RegisterScreen/>
+        {/* <DetailsScreen/> */}
+        {/* <RegisterViaEmailScreen/> */}
+        {/* <SignInScreen/> */}
+        <ScanningScreen/>
         </View>
       );
 }

@@ -3,20 +3,19 @@ import { Pressable } from "react-native";
 import { StyleSheet, View, Text, Image, TextInput } from "react-native";
 
 
-export default function RegisterScreen(){
+export default function DetailsScreen(){
     return (
         <View styles={styles.homeContainer}> 
             <Pressable>
                 <Image source={require('../assets/images/arrowLeft.png')} style={styles.arrow}/>
             </Pressable>
-            <Text style={styles.registerTitle}>Create your account</Text>
-            <TextInput style={styles.inputContainer} placeholder="First name" placeholderTextColor="#3F3D56" />
-            <TextInput style={styles.inputContainer} placeholder="Last name" placeholderTextColor="#3F3D56" />
-            <TextInput style={styles.inputContainer} placeholder="Email" placeholderTextColor="#3F3D56"/>
-            <TextInput style={styles.inputContainer} placeholder="Password" placeholderTextColor="#3F3D56"/>
+            <Text style={styles.registerTitle}>Your details</Text>
+            <TextInput style={styles.inputContainer} placeholder="Age" placeholderTextColor="#3F3D56" />
+            <TextInput style={styles.inputContainer} placeholder="Health issues" placeholderTextColor="#3F3D56" />
+            <TextInput style={styles.inputContainer} placeholder="Gender" placeholderTextColor="#3F3D56"/>
 
-            <Pressable style={styles.continueButton}>
-                <Text style={styles.continueText}>Continue</Text>
+            <Pressable style={styles.signUpButton}>
+                <Text style={styles.signUpText}>Sign Up</Text>
             </Pressable>
             <Pressable>
                 <Text style={styles.anotherMethod}>Or use another method</Text>
@@ -43,7 +42,7 @@ const styles = StyleSheet.create({
         fontWeight: 600,
         fontSize: 20,
         fontFamily: 'athiti-semiBold',
-        marginBottom: 60,
+        marginBottom: 40,
     },
     arrow:{
         top: 30,
@@ -60,7 +59,7 @@ const styles = StyleSheet.create({
         fontFamily: 'athiti-extraLight',
         fontSize: 20
     },
-    continueButton: {
+    signUpButton: {
         backgroundColor: '#F0EFFF',
         width: 350,
         height: 48,
@@ -69,10 +68,10 @@ const styles = StyleSheet.create({
         overflow: 'hidden',
         marginTop: 14,
     },
-    continueText: {
+    signUpText: {
         fontFamily: 'athiti-semiBold',
         fontSize: 20,
-        color: '#3F3D56',
+        color: "#3F3D56",
         textAlign: 'center',
         alignContent: 'center',
         justifyContent : 'center',
@@ -80,7 +79,7 @@ const styles = StyleSheet.create({
     },
     anotherMethod: {
         marginTop: 22,
-        marginBottom: 150,
+        marginBottom: 180,
         fontFamily: 'athiti-regular',
         fontSize: 20,
         textAlign: 'center',
@@ -92,7 +91,6 @@ const styles = StyleSheet.create({
        textAlign: 'center',
        fontFamily: 'athiti-regular',
        fontSize: 20,
-       marginTop: 22
     },
     signIn: {
         textDecorationLine: 'underline',

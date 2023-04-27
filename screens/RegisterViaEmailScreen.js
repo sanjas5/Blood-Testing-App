@@ -3,21 +3,19 @@ import { Pressable } from "react-native";
 import { StyleSheet, View, Text, Image, TextInput } from "react-native";
 
 
-export default function RegisterScreen(){
+export default function RegisterViaEmailScreen(){
     return (
         <View styles={styles.homeContainer}> 
             <Pressable>
                 <Image source={require('../assets/images/arrowLeft.png')} style={styles.arrow}/>
             </Pressable>
-            <Text style={styles.registerTitle}>Create your account</Text>
-            <TextInput style={styles.inputContainer} placeholder="First name" placeholderTextColor="#3F3D56" />
-            <TextInput style={styles.inputContainer} placeholder="Last name" placeholderTextColor="#3F3D56" />
-            <TextInput style={styles.inputContainer} placeholder="Email" placeholderTextColor="#3F3D56"/>
-            <TextInput style={styles.inputContainer} placeholder="Password" placeholderTextColor="#3F3D56"/>
+            <Text style={styles.registerTitle}>What is your email?</Text>
+            <TextInput style={styles.inputContainer} placeholder="Email" placeholderTextColor="#3F3D56" />
 
             <Pressable style={styles.continueButton}>
                 <Text style={styles.continueText}>Continue</Text>
             </Pressable>
+            
             <Pressable>
                 <Text style={styles.anotherMethod}>Or use another method</Text>
             </Pressable>
@@ -43,10 +41,10 @@ const styles = StyleSheet.create({
         fontWeight: 600,
         fontSize: 20,
         fontFamily: 'athiti-semiBold',
-        marginBottom: 60,
+        marginBottom: 50,
     },
     arrow:{
-        top: 30,
+         top: 30,
     },	
     inputContainer: {
         width: 350,
@@ -80,7 +78,7 @@ const styles = StyleSheet.create({
     },
     anotherMethod: {
         marginTop: 22,
-        marginBottom: 150,
+        marginBottom: 362,
         fontFamily: 'athiti-regular',
         fontSize: 20,
         textAlign: 'center',
@@ -92,7 +90,6 @@ const styles = StyleSheet.create({
        textAlign: 'center',
        fontFamily: 'athiti-regular',
        fontSize: 20,
-       marginTop: 22
     },
     signIn: {
         textDecorationLine: 'underline',
